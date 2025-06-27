@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Formulário - Situação de Aprendizagem</title>
-    <link rel="stylesheet" href="estilocliente.css" />
-  </head>
-  
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário - Situação de Aprendizagem</title>
+  <link rel="stylesheet" href="estilo_produto.css">
+</head>
 <body>
   <style type="text/css">
     ul{
@@ -13,7 +12,7 @@
         margin:0px; /* remove os espaçamentos*/
         padding: 0px; /* remove os espaçamentos*/
         overflow:hidden;/* evita que o contéudo ultrapasse da caixa*/
-        background-color: #00bfa5; /* define a cor de fundo*/
+        background-color: #3a0086; /* define a cor de fundo*/
     }
     li{
         float:left;/* os itens vão ficar um do lado do outro, tipo menu horizontal*/
@@ -68,39 +67,35 @@
         <a href="DropDown.html">dropdown</a>
     </li>
  </ul>
-  <h2>Cadastro de Cliente</h2>
+    <center>
+  <h2>Cadastro de Produto</h2>
   <form>
     <table border="1" cellpadding="10">
       <tr>
         <th rowspan="2">
-          <!-- Substitua pelo caminho da sua logo -->
           <img src="logo.png" alt="Logo da Empresa" width="100">
         </th>
-        <th>Nome completo</th>
-        <th>Telefone</th>
-        <th>Email</th>
-        <th>CPF/CNPJ</th>
-        <th>Endereço</th>
+        <th>Nome do Produto</th>
+        <th>Quantidade</th>
+        <th>Valor</th>
+        <th>Fornecedor</th>
       </tr>
       <tr>
-        <td><input type="text" name="nome_completo" required></td>
-        <td><input type="number" name="telefone" required></td>
-        <td><input type="text" name="email" required></td>
-        <td><input type="number" name="cpf_cnpj" required></td>
-        <td><input type="text" name="endereco" required></td>
-        
+        <td><input type="text" name="nome_produto" required></td>
+        <td><input type="number" name="quantidade" required></td>
+        <td><input type="number" name="valor" step="0.01" required></td>
+        <td><input type="text" name="fornecedor" required></td>
       </tr>
       <tr>
-        <td colspan="6" align="center">
+        <td colspan="5" align="center">
           <button type="submit">Enviar</button>
           <button type="reset">Limpar</button>
         </td>
       </tr>
     </table>
   </form>
+</center>
 
-  <footer>
-    <p>Desenvolvido por: Matheus Henrique Coelho Amaral</p>
-  </footer>
+  <center> <address> Matheus dela libera dos anjos/ Estudante / Tecnico em Deenvolvimento de Sistemas </address> </center>
 </body>
 </html>
