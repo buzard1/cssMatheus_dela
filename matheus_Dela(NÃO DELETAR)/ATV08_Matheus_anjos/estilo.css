@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family: arial, sans-serif;
+}
+header{
+    background-color: yellow;
+    padding:20px;
+    height: 140px;
+    text-align: left;
+    font-weight: bold;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+}
+.container{
+    display: flex;
+    height: 360px;
+    
+}
+.body{
+    background-color:lightsalmon ;
+    width: 70%;
+    text-align: left;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+    
+}
+.links{
+     background-color: aqua;
+     width: 30%;
+     padding:20px;
+     border-style: solid;
+     border-width:1px;
+     border-color: black;
+}
+footer{
+    background-color: green;
+    height: 55px;
+    border-style: solid;
+    border-width:1px;
+    border-color: black;
+}

@@ -1,0 +1,25 @@
+body{
+    margin:0;
+    font-family: arial, sans-serif;
+}
+header{
+    padding:20px;
+    height: 100px;
+    font-weight: bold;
+}
+p{
+    color:blue;
+    font-size:16px;
+}
+h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+img{
+    display: flex;
+    position: fixed;
+    top:40%;
+    left:40%;
+    right:20px;
+
+}
